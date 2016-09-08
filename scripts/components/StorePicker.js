@@ -1,6 +1,8 @@
 var React = require('react');
 var ReactRouter = require('react-router');
 var History = ReactRouter.History;
+var h = require('../helpers/');
+
 /*
   StorePicker
   This will let us make <StorePicker/>
@@ -19,7 +21,7 @@ var StorePicker = React.createClass({
       <form className="store-selector" onSubmit={this.goToStore}>
         <h2>Please Enter A Store</h2>
         <input type="text" ref="storeId" defaultValue={h.getFunName()} required />
-        <input type="Submit" />
+        <input type="Submit" value="Enter" />
       </form>
     )
   }
