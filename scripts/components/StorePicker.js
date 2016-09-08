@@ -25,7 +25,6 @@ var StorePicker = React.createClass({
       </form>
     )
   }
-
 });
 
 export default StorePicker;
