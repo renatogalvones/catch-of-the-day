@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactRouter = require('react-router');
-var History = ReactRouter.History;
-var h = require('../helpers/');
+import React from 'react';
+import { History } from 'react-router';
+import h from '../helpers/';
+import reactMixin from 'react-mixin';
 
 /*
   StorePicker
@@ -9,7 +9,7 @@ var h = require('../helpers/');
 */
 
 var StorePicker = React.createClass({
-  mixins : [History],
+
   goToStore : function(event) {
     event.preventDefault();
     // get the data from the input
@@ -26,5 +26,7 @@ var StorePicker = React.createClass({
     )
   }
 });
+
+reactMixin.onClass(StorePicker, History);
 
 export default StorePicker;

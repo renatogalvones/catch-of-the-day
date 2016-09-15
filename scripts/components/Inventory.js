@@ -1,5 +1,5 @@
-var React = require('react');
-var AddFishForm = require('./AddFishForm');
+import React from 'react';
+import AddFishForm from './AddFishForm';
 
 /*
   Inventory

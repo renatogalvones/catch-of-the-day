@@ -1,6 +1,4 @@
-var React = require('react');
-
-
+import React from 'react';
 
 /*
   Add Fish Form

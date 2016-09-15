@@ -1,6 +1,6 @@
-var React = require('react');
-var CSSTransitionGroup = require('react-addons-css-transition-group');
-var h = require('../helpers');
+import React from 'react';
+import CSSTransitionGroup from 'react-addons-css-transition-group';
+import h from '../helpers';
 
 /*
   Order

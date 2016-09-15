@@ -1,11 +1,11 @@
-var React = require('react');
-var Catalyst = require('react-catalyst');
-var Header = require('./Header');
-var Order = require('./Order');
-var Inventory = require('./Inventory');
-var Fish = require('./Fish');
-var Rebase = require('re-base');
-var base = Rebase.createClass('https://catch-of-the-gay-galvao.firebaseio.com/');
+import React from 'react';
+import Catalyst from 'react-catalyst';
+import Header from './Header';
+import Order from './Order';
+import Inventory from './Inventory';
+import Fish from './Fish';
+import Rebase from 're-base';
+let base = Rebase.createClass('https://catch-of-the-gay-galvao.firebaseio.com/');
 
 /*
   App
